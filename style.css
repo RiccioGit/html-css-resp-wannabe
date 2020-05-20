@@ -84,30 +84,39 @@ img {
   }
 
   div .container {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
+    margin: 20px 15%;
+    margin-bottom: 15px;
+  }
+
+  img #why {
+    display: block;
     width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+
+  .row {
+    width: 100%;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
     float:none;
-    margin: 0 auto;
+    width: 100%;
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     float:none;
-    margin: 0 auto;
-  }
-
-  .row {
     width: 100%;
   }
 
