@@ -80,8 +80,15 @@ img {
   #lezioni .row>.left,
   #lezioni .row>.right {
     float:none;
+    margin: 0 auto;
   }
 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float:none;
+    margin: 0 auto;
+  }
 
 
 }
