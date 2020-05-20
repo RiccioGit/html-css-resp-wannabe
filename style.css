@@ -77,6 +77,11 @@ img {
 
 @media screen and (max-width: 420px ){
 
+  body {
+   font-size: 26px;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     float:none;
@@ -90,5 +95,8 @@ img {
     margin: 0 auto;
   }
 
+  .row {
+    width: 100%;
+  }
 
 }
